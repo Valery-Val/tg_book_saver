@@ -25,7 +25,7 @@
 | **Telethon** | Асинхронный клиент для Telegram API |
 | **Prefect** | Оркестрация workflow, retry, UI мониторинга |
 | **DuckDB** | In-process OLAP база для хранения метаданных |
-| **Pydantic / pydantic-settings** | Валидация и управление конфигурацией (12-factor app) |
+| **Pydantic / pydantic-settings** | Валидация и управление конфигурацией |
 | **asyncio** | Асинхронное выполнение и контроль конкурентности |
 
 ## Установка и настройка
