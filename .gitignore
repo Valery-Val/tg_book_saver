@@ -1,0 +1,13 @@
+.venv/
+*__pycache__
+*tg_saver.egg-info
+*.pyc
+.env
+data/
+*.db
+*.session
+*.session-journal
+
+# tests
+cleanup_book.py
+test_*
