@@ -35,9 +35,16 @@
 ```bash
 git clone https://github.com/Valery-Val/tg_book_saver.git
 cd tg_book_saver
+
+# Создаем и активируем виртуальное окружение
 python -m venv venv
 source venv/bin/activate  # Для Windows: venv\Scripts\activate
-pip install -r requirements.txt
+
+# Установка основных зависимостей
+pip install .
+
+# Опционально! Установка dev-зависимостей (ruff для линтинга, ipykernel для Jupyter)
+pip install -e ".[dev]"
 ```
 ### Получение Telegram API credentials
 Перейдите на my.telegram.org.<br>
