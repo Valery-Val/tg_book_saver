@@ -31,7 +31,6 @@ async def run_etl(max_books: int = 1):
     
     logger.info(f"Пайплайн завершен! Успешно обработано: {successful}")
     
-    # # ЭТАП 3: Показываем статистику
     # show_statistics()
 
 
