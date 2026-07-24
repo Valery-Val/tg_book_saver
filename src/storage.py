@@ -82,9 +82,6 @@ class S3Storage(BaseStorage):
             return False
 
 
-# Фабрика: создаёт нужное хранилище на основе конфига
 def get_storage() -> BaseStorage:
     """Возвращает экземпляр хранилища в зависимости от настроек."""
-    # Пока жестко зададим локальное, но на вебинаре ты покажешь, 
-    # как переключать это через settings.storage_type
     return LocalStorage(root_dir=settings.raw_dir)
